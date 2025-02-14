@@ -2,7 +2,7 @@ html, body {
   box-sizing: border-box;
   margin: 0;
   font-family: "Work Sans", sans-serif;
-  background-color: #ffe6ea; /* Light pink background */
+  background-color: #ffb3c1; /* Màu nền đậm hơn */
 }
 
 .container {
@@ -42,7 +42,7 @@ html, body {
 
 .one {
   font-size: 4rem; /* Giảm kích thước chữ */
-  color: #ff1493; /* Deep pink */
+  color: #c71585; /* Màu chữ đậm hơn */
 }
 
 .one > img {
@@ -55,7 +55,7 @@ html, body {
 .two {
   font-size: 1rem; /* Giảm kích thước chữ */
   font-weight: lighter;
-  color: #c71585; /* Medium violet red */
+  color: #a500b5; /* Màu chữ đậm hơn */
 }
 
 .three {
@@ -225,14 +225,14 @@ html, body {
 .wish-hbd {
   font-size: 2em; /* Giảm kích thước chữ */
   margin: 0;
-  color: #ff1493; /* Deep pink */
+  color: #c71585; /* Màu chữ đậm hơn */
 }
 
 .wish h5 {
   font-weight: lighter;
   font-size: 1.2rem; /* Giảm kích thước chữ */
   margin: 5px 0 0; /* Giảm khoảng cách phía trên */
-  color: #db7093; /* Pale violet red */
+  color: #a500b5; /* Màu chữ đậm hơn */
 }
 
 .nine p {
