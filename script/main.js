@@ -240,16 +240,16 @@ const animationTimeline = () => {
     )
     .staggerTo(
       ".eight svg",
-      2.5, // Tăng thời gian từ 1.5 lên 2.5
+      2.5, // Tăng thời gian từ 1.5 lên 2.5 để làm cho hiệu ứng chậm hơn
       {
         visibility: "visible",
-        opacity: 1, // Đặt opacity thành 1 để chúng xuất hiện
-        scale: 1.5, // Tăng kích thước để tạo cảm giác nở ra
+        opacity: 0,
+        scale: 80,
         repeat: 3,
-        repeatDelay: 1.5, // Tăng độ trễ giữa các lần lặp
-        ease: "power2.out", // Sử dụng easing để tạo cảm giác mềm mại
+        repeatDelay: 2.0, // Tăng độ trễ giữa các lần lặp từ 1.4 lên 2.0
+        ease: "power1.out" // Sử dụng easing để tạo cảm giác mềm mại
       },
-      0.3
+      0.5 // Tăng độ trễ giữa các phần tử
     )
     .to(".six", 0.5, {
       opacity: 0,

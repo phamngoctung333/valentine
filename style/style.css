@@ -55,12 +55,12 @@ html, body {
 .two {
   font-size: 1rem; /* Kích thước chữ */
   font-weight: lighter;
-  color: #c71585; /* Đảm bảo màu chữ đồng nhất */
+  color: #c71585; /* Màu chữ đồng nhất cho greeting text */
 }
 
 .three {
   font-size: 2.5rem; /* Kích thước chữ */
-  color: #c71585; /* Đảm bảo màu chữ đồng nhất */
+  color: #c71585; /* Màu chữ đồng nhất */
 }
 
 .four .text-box {
@@ -98,7 +98,7 @@ html, body {
   position: absolute;
   left: 0;
   right: 0;
-  color: #c71585; /* Đảm bảo màu chữ đồng nhất */
+  color: #c71585; /* Màu chữ đồng nhất */
 }
 
 .idea-3 strong {
@@ -225,14 +225,14 @@ html, body {
 .wish-hbd {
   font-size: 2em; /* Kích thước chữ */
   margin: 0;
-  color: #c71585; /* Màu chữ đồng nhất */
+  color: #c71585; /* Màu chữ đồng nhất cho wish text */
 }
 
 .wish h5 {
   font-weight: lighter;
   font-size: 1.2rem; /* Kích thước chữ */
   margin: 5px 0 0; /* Giảm khoảng cách phía trên */
-  color: #c71585; /* Màu chữ đồng nhất */
+  color: #c71585; /* Màu chữ đồng nhất cho wish text */
 }
 
 .nine p {
