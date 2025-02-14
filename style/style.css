@@ -1,8 +1,5 @@
-html {
+html, body {
   box-sizing: border-box;
-}
-
-body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
   background-color: #ffe6ea; /* Light pink background */
@@ -10,7 +7,7 @@ body {
 
 .container {
   height: 100vh;
-  width: 100vh;
+  width: 100vw; /* Thay đổi từ 100vh sang 100vw */
   margin: 0 auto;
   text-align: center;
   visibility: hidden;
@@ -293,9 +290,21 @@ body {
     font-size: 10rem;
   }
 
-  .six .hat {
-    width: 50px;
-    top: -20px;
+  .six {
+    display: flex;
+    flex-direction: column; /* Đặt hình ảnh và văn bản theo chiều dọc */
+    align-items: center; /* Căn giữa nội dung */
+    margin-top: 20px; /* Thêm khoảng cách phía trên */
+  }
+
+  .six img {
+    max-width: 80%; /* Giảm kích thước hình ảnh */
+    height: auto;
+    margin-bottom: 10px; /* Thêm khoảng cách giữa hình ảnh và văn bản */
+  }
+
+  .wish {
+    text-align: center; /* Căn giữa văn bản */
   }
 
   .wish-hbd {
