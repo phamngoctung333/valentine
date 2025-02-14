@@ -5,6 +5,7 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background-color: #ffe6ea; /* Light pink background */
 }
 
 .container {
@@ -20,6 +21,8 @@ body {
 .container div.six {
   top: 10vh;
   z-index: 1;
+  display: flex; /* Sử dụng flexbox để sắp xếp hình ảnh và văn bản */
+  align-items: flex-start; /* Căn chỉnh hình ảnh lên trên cùng */
 }
 
 .container div.seven,
@@ -38,7 +41,8 @@ body {
 }
 
 .one {
-  font-size: 4.5rem;
+  font-size: 4rem; /* Giảm kích thước chữ */
+  color: #ff1493; /* Deep pink */
 }
 
 .one > img {
@@ -49,26 +53,30 @@ body {
 }
 
 .two {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Giảm kích thước chữ */
   font-weight: lighter;
+  color: #c71585; /* Medium violet red */
 }
 
 .three {
-  font-size: 3rem;
+  font-size: 2.5rem; /* Giảm kích thước chữ */
+  color: #db7093; /* Pale violet red */
 }
 
 .four .text-box {
-  width: 600px;
+  width: 700px; /* Kéo dài chiều ngang */
   margin: 0 auto;
-  border: 3px solid #aaa;
+  border: 3px solid #ff69b4; /* Hot pink border */
   border-radius: 5px;
   padding: 10px;
   position: relative;
+  background-color: #fff0f5; /* Lavender blush */
 }
 
 .text-box p {
   margin: 0;
   text-align: left;
+  color: #c71585; /* Medium violet red */
 }
 
 .text-box span {
@@ -80,26 +88,29 @@ body {
   right: 5px;
   bottom: 5px;
   color: #fff;
-  background-color: rgb(21, 161, 237);
+  background-color: #ff1493; /* Deep pink button */
   padding: 5px 8px;
   border-radius: 3px;
 }
 
 .five p {
-  font-size: 2rem;
+  font-size: 1.8rem; /* Giảm kích thước chữ */
   position: absolute;
   left: 0;
   right: 0;
+  color: #db7093; /* Pale violet red */
 }
 
 .idea-3 strong {
   padding: 3px 5px;
   border-radius: 3px;
   display: inline-block;
+  background-color: #ff69b4; /* Hot pink */
+  color: white;
 }
 
 .five .idea-5 {
-  font-size: 4rem;
+  font-size: 3.5rem; /* Giảm kích thước chữ */
 }
 
 .idea-5 span,
@@ -118,8 +129,9 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 45%;
+  max-width: 45%; /* Giữ nguyên kích thước hình ảnh */
   height: auto;
+  margin-right: 20px; /* Khoảng cách giữa hình ảnh và văn bản */
 }
 
 .six .hat {
@@ -127,7 +139,6 @@ body {
   width: 80px;
   top: -35px;
   left: 41.5%;
-  /* transform: scale(0.1); */
 }
 
 .baloons img {
@@ -160,72 +171,74 @@ body {
 .eight svg:nth-child(1) {
   top: 7vh;
   left: 5vw;
-  fill: #bd6ecf;
+  fill: #ff69b4; /* Hot pink */
 }
 
 .eight svg:nth-child(2) {
   top: 23vh;
   left: 35vw;
-  fill: #7dd175;
+  fill: #db7093; /* Pale violet red */
 }
 
 .eight svg:nth-child(3) {
   top: 33vh;
   left: 23vw;
-  fill: #349d8b;
+  fill: #ff1493; /* Deep pink */
 }
 
 .eight svg:nth-child(4) {
   top: 43vh;
   left: 57vw;
-  fill: #347a9d;
+  fill: #c71585; /* Medium violet red */
 }
 
 .eight svg:nth-child(5) {
   top: 68vh;
   left: 7vw;
-  fill: #c66053;
+  fill: #ff69b4; /* Hot pink */
 }
 
 .eight svg:nth-child(6) {
   top: 42vh;
   left: 77vw;
-  fill: #bfaa40;
+  fill: #db7093; /* Pale violet red */
 }
 
 .eight svg:nth-child(7) {
   top: 68vh;
   left: 83vw;
-  fill: #e3bae8;
+  fill: #ff1493; /* Deep pink */
 }
 
 .eight svg:nth-child(8) {
   top: 86vh;
   left: 37vw;
-  fill: #8762cb;
+  fill: #c71585; /* Medium violet red */
 }
 
 .eight svg:nth-child(9) {
   top: 94vh;
   left: 87vw;
-  fill: #9a90da;
+  fill: #ff69b4; /* Hot pink */
 }
 
 .wish-hbd {
-  font-size: 3em;
+  font-size: 2.5em; /* Giảm kích thước chữ */
   margin: 0;
-  /* text-transform: uppercase; */
+  color: #ff1493; /* Deep pink */
 }
 
 .wish h5 {
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 1.4rem; /* Giảm kích thước chữ */
   margin: 10px 0 0;
+  color: #db7093; /* Pale violet red */
 }
 
 .nine p {
-  font-size: 2rem;
+  font-size: 1.8rem; /* Giảm kích thước chữ */
   font-weight: lighter;
+  color: #c71585; /* Medium violet red */
 }
 
 #replay {
@@ -286,15 +299,15 @@ body {
   }
 
   .wish-hbd {
-    font-size: 2.3em;
+    font-size: 2em; /* Giảm kích thước chữ */
   }
 
   .wish h5 {
-    font-size: 1.4rem;
+    font-size: 1.3rem; /* Giảm kích thước chữ */
   }
 
   .nine p {
-    font-size: 1.5rem;
+    font-size: 1.4rem; /* Giảm kích thước chữ */
     font-weight: lighter;
   }
 }
