@@ -21,6 +21,8 @@ html, body {
   display: flex; /* Sử dụng flexbox để sắp xếp hình ảnh và văn bản */
   flex-direction: column; /* Đặt hình ảnh và văn bản theo chiều dọc */
   align-items: center; /* Căn giữa nội dung */
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  height: 100%; /* Đảm bảo chiều cao đầy đủ */
 }
 
 .container div.seven,
@@ -309,11 +311,11 @@ html, body {
   }
 
   .wish-hbd {
-    font-size: 2em; /* Giảm kích thước chữ */
+    font-size: 1.5em; /* Giảm kích thước chữ cho màn hình nhỏ */
   }
 
   .wish h5 {
-    font-size: 1.2rem; /* Giảm kích thước chữ */
+    font-size: 1rem; /* Giảm kích thước chữ cho màn hình nhỏ */
   }
 
   .nine p {
