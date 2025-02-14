@@ -54,8 +54,7 @@ html, body {
 
 .two {
   font-size: 1rem; /* Giảm kích thước chữ */
-  font-weight: lighter;
-  color: #a500b5; /* Màu chữ đậm hơn */
+  color: #ff69b4; /* Màu chữ đậm hơn */
 }
 
 .three {
@@ -229,10 +228,9 @@ html, body {
 }
 
 .wish h5 {
-  font-weight: lighter;
   font-size: 1.2rem; /* Giảm kích thước chữ */
   margin: 5px 0 0; /* Giảm khoảng cách phía trên */
-  color: #a500b5; /* Màu chữ đậm hơn */
+  color: #ff69b4; /* Màu chữ đậm hơn */
 }
 
 .nine p {
