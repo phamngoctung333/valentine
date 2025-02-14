@@ -16,7 +16,7 @@ html, body {
 }
 
 .container div.six {
-  top: 10vh;
+  top: 5vh; /* Nhích lên trên thêm một đoạn */
   z-index: 1;
   display: flex; /* Sử dụng flexbox để sắp xếp hình ảnh và văn bản */
   flex-direction: column; /* Đặt hình ảnh và văn bản theo chiều dọc */
