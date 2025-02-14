@@ -41,7 +41,7 @@ html, body {
 }
 
 .one {
-  font-size: 4rem; /* Giảm kích thước chữ */
+  font-size: 4rem; /* Kích thước chữ */
   color: #c71585; /* Màu chữ đậm hơn */
 }
 
@@ -53,13 +53,14 @@ html, body {
 }
 
 .two {
-  font-size: 1rem; /* Giảm kích thước chữ */
-  color: #ff69b4; /* Màu chữ đậm hơn */
+  font-size: 1rem; /* Kích thước chữ */
+  font-weight: lighter;
+  color: #c71585; /* Đảm bảo màu chữ đồng nhất */
 }
 
 .three {
-  font-size: 2.5rem; /* Giảm kích thước chữ */
-  color: #db7093; /* Pale violet red */
+  font-size: 2.5rem; /* Kích thước chữ */
+  color: #c71585; /* Đảm bảo màu chữ đồng nhất */
 }
 
 .four .text-box {
@@ -75,7 +76,7 @@ html, body {
 .text-box p {
   margin: 0;
   text-align: left;
-  color: #c71585; /* Medium violet red */
+  color: #c71585; /* Màu chữ đồng nhất */
 }
 
 .text-box span {
@@ -93,11 +94,11 @@ html, body {
 }
 
 .five p {
-  font-size: 1.8rem; /* Giảm kích thước chữ */
+  font-size: 1.8rem; /* Kích thước chữ */
   position: absolute;
   left: 0;
   right: 0;
-  color: #db7093; /* Pale violet red */
+  color: #c71585; /* Đảm bảo màu chữ đồng nhất */
 }
 
 .idea-3 strong {
@@ -109,7 +110,7 @@ html, body {
 }
 
 .five .idea-5 {
-  font-size: 3.5rem; /* Giảm kích thước chữ */
+  font-size: 3.5rem; /* Kích thước chữ */
 }
 
 .idea-5 span,
@@ -222,21 +223,22 @@ html, body {
 }
 
 .wish-hbd {
-  font-size: 2em; /* Giảm kích thước chữ */
+  font-size: 2em; /* Kích thước chữ */
   margin: 0;
-  color: #c71585; /* Màu chữ đậm hơn */
+  color: #c71585; /* Màu chữ đồng nhất */
 }
 
 .wish h5 {
-  font-size: 1.2rem; /* Giảm kích thước chữ */
+  font-weight: lighter;
+  font-size: 1.2rem; /* Kích thước chữ */
   margin: 5px 0 0; /* Giảm khoảng cách phía trên */
-  color: #ff69b4; /* Màu chữ đậm hơn */
+  color: #c71585; /* Màu chữ đồng nhất */
 }
 
 .nine p {
-  font-size: 1.8rem; /* Giảm kích thước chữ */
+  font-size: 1.8rem; /* Kích thước chữ */
   font-weight: lighter;
-  color: #c71585; /* Medium violet red */
+  color: #c71585; /* Màu chữ đồng nhất */
 }
 
 #replay {

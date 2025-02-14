@@ -6,11 +6,11 @@ const animationTimeline = () => {
 
   textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
     .split("")
-    .join("</span><span>")}</span>`;
+    .join("</span><span>")}</span`;
 
   hbd.innerHTML = `<span>${hbd.innerHTML
     .split("")
-    .join("</span><span>")}</span>`;
+    .join("</span><span>")}</span`;
 
   const ideaTextTrans = {
     opacity: 0,
@@ -60,6 +60,7 @@ const animationTimeline = () => {
     .from(".three", 0.7, {
       opacity: 0,
       y: 10,
+      // scale: 0.7
     })
     .to(
       ".three",
@@ -135,7 +136,7 @@ const animationTimeline = () => {
       },
       "+=0.4"
     )
-    .to (
+    .to(
       ".idea-5",
       0.7,
       {
@@ -204,6 +205,7 @@ const animationTimeline = () => {
       {
         opacity: 0,
         y: -50,
+        // scale: 0.3,
         rotation: 150,
         skewX: "30deg",
         ease: Elastic.easeOut.config(1, 0.5),
@@ -238,13 +240,14 @@ const animationTimeline = () => {
     )
     .staggerTo(
       ".eight svg",
-      1.5,
+      2.5, // Tăng thời gian từ 1.5 lên 2.5
       {
         visibility: "visible",
-        opacity: 0,
-        scale: 80,
+        opacity: 1, // Đặt opacity thành 1 để chúng xuất hiện
+        scale: 1.5, // Tăng kích thước để tạo cảm giác nở ra
         repeat: 3,
-        repeatDelay: 1.4,
+        repeatDelay: 1.5, // Tăng độ trễ giữa các lần lặp
+        ease: "power2.out", // Sử dụng easing để tạo cảm giác mềm mại
       },
       0.3
     )
@@ -261,22 +264,12 @@ const animationTimeline = () => {
         rotation: 90,
       },
       "+=1"
-    )
-    .fromTo(
-      ".wish h5",
-      1.5,
-      {
-        opacity: 0,
-        y: 20,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        ease: Power2.easeOut,
-      },
-      "+=0.5"
     );
 
+  // tl.seek("currentStep");
+  // tl.timeScale(2);
+
+  // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
     tl.restart();
