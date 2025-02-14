@@ -131,7 +131,7 @@ html, body {
   display: inline-block;
   max-width: 50%; /* Giảm kích thước hình ảnh xuống 50% */
   height: auto;
-  margin-bottom: 10px; /* Thêm khoảng cách giữa hình ảnh và văn bản */
+  margin-bottom: 5px; /* Thêm khoảng cách giữa hình ảnh và văn bản */
 }
 
 .six .hat {
@@ -231,7 +231,7 @@ html, body {
 .wish h5 {
   font-weight: lighter;
   font-size: 1.2rem; /* Giảm kích thước chữ */
-  margin: 10px 0 0;
+  margin: 5px 0 0; /* Giảm khoảng cách phía trên */
   color: #db7093; /* Pale violet red */
 }
 
@@ -297,13 +297,13 @@ html, body {
     display: flex;
     flex-direction: column; /* Đặt hình ảnh và văn bản theo chiều dọc */
     align-items: center; /* Căn giữa nội dung */
-    margin-top: 20px; /* Thêm khoảng cách phía trên */
+    margin-top: 10px; /* Thêm khoảng cách phía trên */
   }
 
   .six img {
     max-width: 50%; /* Giảm kích thước hình ảnh xuống 50% */
     height: auto;
-    margin-bottom: 10px; /* Thêm khoảng cách giữa hình ảnh và văn bản */
+    margin-bottom: 5px; /* Thêm khoảng cách giữa hình ảnh và văn bản */
   }
 
   .wish {
