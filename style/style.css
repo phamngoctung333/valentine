@@ -16,7 +16,7 @@ html, body {
 }
 
 .container div.six {
-  top: 5vh; /* Nhích lên trên thêm một đoạn */
+  top: 0; /* Nhích lên trên thêm nữa */
   z-index: 1;
   display: flex; /* Sử dụng flexbox để sắp xếp hình ảnh và văn bản */
   flex-direction: column; /* Đặt hình ảnh và văn bản theo chiều dọc */
@@ -37,7 +37,7 @@ html, body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 20vh;
+  top: 20vh; /* Giữ nguyên vị trí này cho các phần khác */
 }
 
 .one {
